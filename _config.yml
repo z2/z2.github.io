@@ -28,8 +28,8 @@ disqus:
 
 # google analytics 设置
 ga:
-  id: 
-  url: 
+  id: UA-75011256-1
+  url: blog.arkloud.com
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
