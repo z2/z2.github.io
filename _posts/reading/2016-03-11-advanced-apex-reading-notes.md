@@ -28,7 +28,7 @@ Swift则被评为Most Loved.
 在这里我强烈建议一本[Salesforce Apex Programming for Salesforce.com and Force.com](http://advancedapex.com/)
 这本书刚出了第三版，Dan Appleman的作品。
 这本书是讲述了如何用这种独特的语言思考，而是不是如何使用这种语言。
-想成为好手靠的是技能，而想成为高手靠的是思想，形而上的东西。
+想成为好手靠的是熟练的技能，而想成为高手靠的是思想，形而上的东西。
 
 
 
