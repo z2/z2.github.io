@@ -9,7 +9,17 @@ description:
 ## Context
 
 
-
+{% highlight java %}
+if(!myclass.firstcall)
+{
+        // First call into trigger
+        myclass.firstcall = true;
+}
+else
+{
+        // Subsequent call into trigger
+}
+{% endhighlight %}
 
 
 
