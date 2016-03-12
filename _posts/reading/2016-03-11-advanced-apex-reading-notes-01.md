@@ -48,19 +48,11 @@ else
 {
         // Subsequent call into trigger
 }
+
+Excerpt From: Dan Appleman. “Advanced Apex Programming for Salesforce.com and Force.com.”
 {% endhighlight %}
 
-“if(!myclass.firstcall)
-{
-        // First call into trigger
-        myclass.firstcall = true;
-}
-else
-{
-        // Subsequent call into trigger
-}”
 
-Excerpt From: Dan Appleman. “Advanced Apex Programming for Salesforce.com and Force.com.” iBooks. 
 
 
 
