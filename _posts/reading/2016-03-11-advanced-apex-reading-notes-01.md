@@ -33,7 +33,12 @@ description:
 	EC starts => Trigger 1 => Trigger 2 => Trigger2 => EC ends
 
 
+
 {% highlight java %}
+
+public Static Boolean firstcall = false;
+
+
 if(!myclass.firstcall)
 {
         // First call into trigger
@@ -45,7 +50,17 @@ else
 }
 {% endhighlight %}
 
+“if(!myclass.firstcall)
+{
+        // First call into trigger
+        myclass.firstcall = true;
+}
+else
+{
+        // Subsequent call into trigger
+}”
 
+Excerpt From: Dan Appleman. “Advanced Apex Programming for Salesforce.com and Force.com.” iBooks. 
 
 
 
