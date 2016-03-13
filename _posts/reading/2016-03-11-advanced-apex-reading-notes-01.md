@@ -58,6 +58,13 @@ else
 
 ### Static Variables
 
+大部分计算机语言的静态变量一般都是在应用层面的（application level),
+往往用于共享类之间的数据，或者给一些类纪录生成实例的数量等等。
+而Apex却不一样！ 
+
+> Static variables in Apex have execution context scope and lifetime.
+
+
 
 
 
