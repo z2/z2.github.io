@@ -33,6 +33,8 @@ description:
 	EC starts => Trigger 1 => Trigger 2 => Trigger2 => EC ends
 
 
+ 如果Triggers 跟workflow updates 交织在一起就不好玩儿了,
+ 下面就是解决的方法。
 
 {% highlight java %}
 
@@ -49,11 +51,11 @@ else
         // Subsequent call into trigger
 }
 
-Excerpt From: Dan Appleman. “Advanced Apex Programming for Salesforce.com and Force.com.”
+// Excerpt From: Dan Appleman. “Advanced Apex Programming for Salesforce.com and Force.com.”
 {% endhighlight %}
 
 
-
+### Static Variables
 
 
 
