@@ -1,1 +1,8 @@
-2016-03-14-sfdc-platform-cache
+---
+layout: post
+title: Salesforce Platform Cache
+category: Salesforce
+tags: [Markdown] 
+keywords: 
+description: 
+---
