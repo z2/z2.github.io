@@ -14,7 +14,7 @@ description:
 作者提到一个医疗事故案例，团队里面有7个人都觉得手术有问题，可是没有一个人说
 出来，结果主治医生就做错了手术。 这就是经典的沟通出现了问题。
 
-   ### Crucial Conversation
+### Crucial Conversation
    A discurssion between two or more people where
   1. stakes are hight,
   2. opinions vary,and
