@@ -2,7 +2,7 @@
 layout: post
 title: Salesforce Platform Cache
 category: Salesforce
-tags: [Markdown] 
+tags: [Apex] 
 keywords: 
 description: 
 ---

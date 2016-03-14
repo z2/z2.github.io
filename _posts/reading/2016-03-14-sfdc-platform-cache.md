@@ -2,10 +2,10 @@
 layout: post
 title: Crucial Conversations
 category: 读书
-tags: [] 
+tags: [Management] 
 keywords: 
 description: 
 ---
 
 最近在读这本书
-![Crucial Conversations](/uploads/2016/crucial_conversations_cover.jpg)
+[![Crucial Conversations](/uploads/2016/crucial_conversations_cover.jpg)]
