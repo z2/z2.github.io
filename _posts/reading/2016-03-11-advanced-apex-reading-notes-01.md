@@ -16,7 +16,7 @@ EC是Apex语言里非常重要的一个概念，也是Apex跟其他语言不大�
 
 
 能触发EC的情况:
-{% highlight text %}
+{% highlight raw %}
 	A database trigger;
 	Future call;
 	Queueable Apex;
