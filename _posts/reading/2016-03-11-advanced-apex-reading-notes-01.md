@@ -64,7 +64,16 @@ else
 
 > Static variables in Apex have execution context scope and lifetime.
 
+在Winter'16之前，我们是没有办法用Apex存贮数据到Session，
+我们也不能用Static Varivales在不同的transaction之间来存取数据，
+只能采用数据库，或者custom setting 来做， 问题就是数据库访问比较慢也占用
+Soql的limits,而custom setting不占用soql,不如session灵活，数据容量的限制也要注意。
+{% highlight text %}
+The total amount of cached data allowed for your organization is the lesser of these two values:
+* 10 MB
+* 1 MB multiplied by the number of full-featured user licenses in your organization
+{% endhighlight %}
 
-
+至于｀platform cache 参看我的博文[platform cache](sfdc/2016-03-14-sfdc-platform-cache.md)
 
 
