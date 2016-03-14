@@ -74,6 +74,6 @@ The total amount of cached data allowed for your organization is the lesser of t
 * 1 MB multiplied by the number of full-featured user licenses in your organization
 {% endhighlight %}
 
-至于｀platform cache 参看我的博文[platform cache](sfdc/2016-03-14-sfdc-platform-cache.md)
+至于platform cache 参看我的博文[platform cache试用](http://blog.arkloud.com/2016/03/14/sfdc-platform-cache.html)
 
 
