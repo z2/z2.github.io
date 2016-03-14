@@ -16,9 +16,9 @@ description:
 
 ### Crucial Conversation
 A discurssion between two or more people where
-1. stakes are hight,
-1. opinions vary,and
-1. emotions run strong.
+*  stakes are hight,
+*  opinions vary,and
+*  emotions run strong.
 
 
 
