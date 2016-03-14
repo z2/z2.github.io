@@ -15,10 +15,10 @@ description:
 出来，结果主治医生就做错了手术。 这就是经典的沟通出现了问题。
 
 ### Crucial Conversation
-   A discurssion between two or more people where
-  1. stakes are hight,
-  2. opinions vary,and
-  3. emotions run strong.
+A discurssion between two or more people where
+1. stakes are hight,
+1. opinions vary,and
+1. emotions run strong.
 
 
 
