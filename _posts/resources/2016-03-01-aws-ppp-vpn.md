@@ -15,8 +15,9 @@ description:
 
 1. 申请AWS（需要美金信用卡）.
 2. 创建一个Ubuntu虚拟机.
-3. 安装PPTP ｀sudo apt-get install pptpd｀
-4. 配置PPTP，并修改chap-secrets添加用户 ｀/etc/ppp/chap-secrets｀
+3. 安装PPTP｀sudo apt-get install pptpd｀
+4. 配置PPTP，并修改chap-secrets添加用户｀/etc/ppp/chap-secrets｀
 5. 完成，可以配置客户端访问Google,Youtube.
 
 详细的教程网上有很多。
+`background-color`
