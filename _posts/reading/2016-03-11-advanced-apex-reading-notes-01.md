@@ -117,3 +117,9 @@ Log:
 
 {% endhighlight %}
 
+Salesforce的EC里面也有内存限制，你不能任意读取很多数据放到缓存里面。
+有些时候还是要从数据库里读取，要根据你软件的实际情况，找到平衡点。
+
+| Description      | Synchronous Limit | Asynchronous Limit  |
+| ---------------- |:-----------------:| -------------------:|
+| Total heap size 4| 6 MB	           | 12 MB	             |
