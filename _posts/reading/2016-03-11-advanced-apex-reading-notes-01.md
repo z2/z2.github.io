@@ -76,4 +76,44 @@ The total amount of cached data allowed for your organization is the lesser of t
 
 至于platform cache 参看我的博文[platform cache试用](http://blog.arkloud.com/2016/03/14/sfdc-platform-cache.html)
 
+静态变量还有个不错的用途就是Caching Data, 减少SOQL的使用次数，提高程序性能。
+我写了个小例子就是判断当前开发环境是不是沙盒：
+
+{% highlight java %}
+public class StaticVariableDemo {
+	private static boolean isSandbox = false;
+    private static boolean isSandboxCached = false;
+    
+    public static boolean isSandbox(){
+        if(isSandboxCached){
+            System.debug('isSandboxCached');
+            return isSandbox;
+        }
+        
+        Organization org = [select issandbox from organization];
+       
+        isSandboxCached = true;
+        isSandbox = org.IsSandbox;
+        System.debug('Read data from soql isSandbox: ' + isSandbox);
+        return isSandbox;
+    }
+}
+{% endhighlight %}
+
+在developer console里面运行Anonymous code:
+
+{% highlight java %}
+StaticVariableDemo.isSandbox();
+StaticVariableDemo.isSandbox();
+StaticVariableDemo.isSandbox();
+{% endhighlight %}
+
+Log:
+
+{% highlight text %}
+17:39:01:014 USER_DEBUG [15]|DEBUG|Read data from soql isSandbox: false
+17:39:01:014 USER_DEBUG [7]|DEBUG|isSandboxCached
+17:39:01:014 USER_DEBUG [7]|DEBUG|isSandboxCached
+
+{% endhighlight %}
 
