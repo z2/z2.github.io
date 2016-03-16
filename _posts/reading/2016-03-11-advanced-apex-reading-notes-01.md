@@ -170,7 +170,56 @@ Maximum execution time for each Apex transaction
 
 
 #### DML Limits
-* 
+
+技巧：
+*  bulk DML
+*  如果程序中多次用到DML操作，不要立即执行，尽量存储到List 或者 Map， 到最后再执行。
+
+#### Heap Size
+
+技巧：
+* SOQL数据的时候，只是包含需要的字段，避免查询 long text or rich text fields.
+* 根据情况，存储sObject Ids,到需要用的时候再查询，而不是把数据都放到static variables.
+
+Apex 里面还有一个隐含的用法，一般用户不知道。就是如果查询很多记录的时候。
+
+``` java
+//如果有1万条Account记录，下面的 List 就存储了1万条记录在内存里。
+
+List<Account> accounts = [select id,name from account];
+for(Account a : accounts){
+	//do sth.
+}
+
+//如果采用下面的方法，SOQL同样算是一条查询,不增加占用，
+//但是每次返回200条记录。
+
+for(List<Account> accounts : [select id,name from Account]){
+	for(Account a : accounts){
+		//do sth.
+	}
+}
+
+//如果处理的问题更简单，采用简写
+for(Account a : [select id,name from account]){
+	//do sth here.
+}
+
+```
+
+#### Describes 
+
+用来获取Force.com的 MetaData. Force.com cached 这些数据，不再算做限制，
+这是考虑到Schema.describeSObjects()可能会消耗大量 CPU time. 用起来小心。
+
+#### Callout
+
 
 
 ＝＝> to be continued
+
+Charles.Chen@arkloud.com
+
+References:
+* [Advanced Apex Programming(Dan Appleman)](http://advancedapex.com/)
+* [Developer Force](http://developer.force.com)
