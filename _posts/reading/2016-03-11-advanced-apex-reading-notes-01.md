@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Advanced Apex 阅读笔记01
+title: Advanced Apex 札记01
 category: 读书
 tags: [Apex] 
 keywords: Salesforce, force.com, Apex
-description: 
+description: Advanced Apex Programming for Salesforce
 ---
+
 ## Execution Context （EC）
 
 EC是Apex语言里非常重要的一个概念，也是Apex跟其他语言不大一样的地方。
@@ -125,6 +126,7 @@ Salesforce的EC里面也有内存限制，你不能任意读取很多数据放�
 | ---------------- |:-----------------:| -------------------:|
 | Total heap size 4| 6 MB	           | 12 MB	             |
 
+
 Salesforce其实是在教会你如何写出高效的代码，而在其它平台里面程序员往往不考虑
 这些问题，而是乱写一气，只是表面上功能实现了。
 多年前我在一个论坛里看到，有个网站说用户多了，就很慢，几乎不能用。
@@ -136,7 +138,27 @@ Salesforce其实是在教会你如何写出高效的代码，而在其它平台�
 里的变量赋值。尤其是用在Test Methods里面。
 
 ### Limits
-我突然觉得翻译成限制不太好，不如叫做界限，就是一个圈儿，你在这个圈怎么都可以。
+
+云计算是非常让人激动的技术革新，我们再也不用关心繁杂的硬件维护升级，软件版本的升级，
+不用担心均衡负载，数据备份，数据库合理的搭建等等问题，这些问题就交给世界一等一的好手们来做。
+
+资源总是有限的，我们不能无限制的使用。云计算也就是大家共用一个平台，彼此不能互相干扰。
+我知道有些hosting companies, 他们的架构不算太好(如果选用的不是dedicated server的话)，
+如果出现有用户进行大量的IO操作，就影响到其它用户的速度。就如同你自己开了一个杀毒软件在扫描磁盘，运行其它程序就觉得特慢。
+
+Apex一般有两种限制，一种是针对一个execution context (EC)的，一种是针对一个Oranization 24小时的。
+
+#### SOQL Limits
+
+技巧：
+
+* 尽量用 Bulk，
+* 能用 before triggers 就不要用 after triggers, 
+* 合理应用 Cache  
+* Include fields from related objects in a single query
+
+
+
 
 
 
