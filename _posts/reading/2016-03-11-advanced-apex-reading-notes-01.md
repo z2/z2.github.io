@@ -214,12 +214,22 @@ for(Account a : [select id,name from account]){
 
 #### Callout
 
+Trigger 里面禁止用.
+但是我常常用 @future, 然后在 future method里面Callout绕过此限制。
+注意的是@future method目前只是支持 primitive types 作为变量，
+如果要传输Object, 需要自己serialize/deserialize.
 
+#### API Limits
 
-＝＝> to be continued
+每个Organization 都会有个API每天调用的次数限制，但是这个可以单独购买。
+
+技巧：
+* Bulk your operations
+
 
 Charles.Chen@arkloud.com
 
 References:
+
 * [Advanced Apex Programming(Dan Appleman)](http://advancedapex.com/)
 * [Developer Force](http://developer.force.com)
