@@ -123,7 +123,7 @@ Salesforce的EC里面也有内存限制，你不能任意读取很多数据放�
 
 
 | Description      | Synchronous Limit | Asynchronous Limit  |
-| ---------------- |:-----------------:| -------------------:|
+| ---------------- | ----------------- | ------------------- |
 | Total heap size 4| 6 MB	           | 12 MB	             |
 
 
@@ -137,7 +137,7 @@ Salesforce其实是在教会你如何写出高效的代码，而在其它平台�
 静态变量还有一种设计模式就是在Trigger里面嵌套一个Class, 把Static variables 加在这个Class里面，这样就可以从外面赋值。而你无法从外面给Trigger
 里的变量赋值。尤其是用在Test Methods里面。
 
-### Limits
+## Limits
 
 云计算是非常让人激动的技术革新，我们再也不用关心繁杂的硬件维护升级，软件版本的升级，
 不用担心均衡负载，数据备份，数据库合理的搭建等等问题，这些问题就交给世界一等一的好手们来做。
@@ -158,7 +158,26 @@ Apex一般有两种限制，一种是针对一个execution context (EC)的，一
 * Include fields from related objects in a single query
 
 
-
+``` javascript
+grunt.initConfig({
+  assemble: {
+    options: {
+      assets: 'docs/assets',
+      data: 'src/data/*.{json,yml}',
+      helpers: 'src/custom-helpers.js',
+      partials: ['src/partials/**/*.{hbs,md}']
+    },
+    pages: {
+      options: {
+        layout: 'default.hbs'
+      },
+      files: {
+        './': ['src/templates/pages/index.hbs']
+      }
+    }
+  }
+};
+```
 
 
 
