@@ -123,7 +123,7 @@ Salesforce的EC里面也有内存限制，你不能任意读取很多数据放�
 
 | Description      | Synchronous Limit | Asynchronous Limit  |
 | ---------------- | ----------------- | ------------------- |
-| Total heap size 4| 6 MB	           | 12 MB	             |
+| Total heap size 4|              6 MB |               12 MB |
 
 
 
@@ -168,10 +168,9 @@ Maximum execution time for each Apex transaction
 10 mins
 ```
 
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
 
+#### DML Limits
+* 
 
 
 ＝＝> to be continued
