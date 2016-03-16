@@ -168,6 +168,10 @@ Maximum execution time for each Apex transaction
 10 mins
 ```
 
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+
 
 
 ＝＝> to be continued
