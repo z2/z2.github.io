@@ -121,10 +121,10 @@ Log:
 Salesforce的EC里面也有内存限制，你不能任意读取很多数据放到缓存里面。
 有些时候还是要从数据库里读取，要根据你实际情况，找到平衡点。
 
-
 | Description      | Synchronous Limit | Asynchronous Limit  |
 | ---------------- | ----------------- | ------------------- |
 | Total heap size 4| 6 MB	           | 12 MB	             |
+
 
 
 Salesforce其实是在教会你如何写出高效的代码，而在其它平台里面程序员往往不考虑
@@ -157,26 +157,15 @@ Apex一般有两种限制，一种是针对一个execution context (EC)的，一
 * 合理应用 Cache  
 * Include fields from related objects in a single query
 
+#### CPU Time Limits
 
-``` javascript
-grunt.initConfig({
-  assemble: {
-    options: {
-      assets: 'docs/assets',
-      data: 'src/data/*.{json,yml}',
-      helpers: 'src/custom-helpers.js',
-      partials: ['src/partials/**/*.{hbs,md}']
-    },
-    pages: {
-      options: {
-        layout: 'default.hbs'
-      },
-      files: {
-        './': ['src/templates/pages/index.hbs']
-      }
-    }
-  }
-};
+``` text
+Maximum CPU time on the Salesforce servers
+同步	10,000 milliseconds	
+异步	60,000 milliseconds
+
+Maximum execution time for each Apex transaction
+10 mins
 ```
 
 
