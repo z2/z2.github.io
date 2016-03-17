@@ -226,7 +226,7 @@ Trigger 里面禁止用.
 技巧：
 * Bulk your operations
 
-
+---
 Charles.Chen@arkloud.com
 
 References:
