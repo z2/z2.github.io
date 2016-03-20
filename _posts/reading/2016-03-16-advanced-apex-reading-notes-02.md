@@ -20,12 +20,14 @@ Bulk几乎贯穿了整个force.com的开发，Apex Trgger, DML, SOQL, API, etc.
 说到这里就顺便提一下微信的API(其它部分代码也不得而知）,
 居然没有Bulk的设计思想在里面。 
 
+``` text
 
->	“All of your Apex code should be designed to handle bulk operations.
->    All of it – no exceptions.”
+“All of your Apex code should be designed to handle bulk operations.
+All of it – no exceptions.”
 
->   Excerpt From: Dan Appleman. “Advanced Apex Programming for Salesforce.com  and 
->  Force.com.”
+Excerpt From: Dan Appleman. “Advanced Apex Programming for Salesforce.com  and Force.com.”
+
+```
 
 ---
 Charles.Chen@arkloud.com
