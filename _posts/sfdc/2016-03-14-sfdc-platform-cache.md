@@ -19,7 +19,7 @@ Salesforce Winter 16 终于推出了 Platform Cache !
  的事情（apex的static variables跟其它平台不同），Visualforce是有view state，但是限制在135k, 也不太好用。 所以数据一般存在数据库，或者custom settings.
 
 要使用Apex的Cache,需要先配置一下。
-![](/uploads/2016/apex_cache_setup.png =100*200)
+![](/uploads/2016/apex_cache_setup.png)
 
 目前有两类Cache可用： 
 
