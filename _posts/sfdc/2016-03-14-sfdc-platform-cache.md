@@ -20,6 +20,8 @@ Salesforce Winter 16 终于推出了 Platform Cache !
 
 要使用Apex的Cache,需要先配置一下。
 ![](/uploads/2016/apex_cache_setup.png)
+<img src="/uploads/2016/apex_cache_setup.png" align="left" height="500" width="250" >
+---
 
 目前有两类Cache可用： 
 
