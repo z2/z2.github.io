@@ -29,7 +29,10 @@ Salesforce Winter 16 终于推出了 Platform Cache !
                   Cache的有效期可以定制
                   但是最长8小时。
 * Org Cache     － 任何用户都可以访问这种缓存， 可以定制有效期。
-                   没有规定最长的有效期。
+                   文档里面没有提到最长的有效期。但是经过我的测试，还是有
+                   有效期的，应该在24小时以内。
 
 经过我的测试Session Cache是不支持Sites用户的。
 Org Cache是可以的。
+
+

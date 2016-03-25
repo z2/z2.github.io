@@ -17,5 +17,12 @@ Adm 201
 * Online course: Summarize Your Data with Dashboards
 
 
+
+Study Notes:
+
+* Online course: Administration Essentials for New Admins and Administration Essentials for theService Cloud
+
+
+
 Salesforce Service Cloud Consultant
 ===================================
