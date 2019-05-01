@@ -24,12 +24,12 @@ favicon:
 
 # disqus 设置
 disqus:
-  shortname: blogarkloudcom
+  shortname: blogarkloudercom
 
 # google analytics 设置
 ga:
   id: UA-75011256-1
-  url: blog.arkloud.com
+  url: blog.arklouder.com
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
