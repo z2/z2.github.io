@@ -1,8 +1,8 @@
 # Site settings
-title: Charles Chen的个人博客
-email: charles.chen@arkloud.com
+title: Zeeman Chen的个人博客
+email: Zeeman.chen@arklouder.com
 description: > # this means to ignore newlines until "baseurl:"
- Charles的博客
+ Zeeman的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.arklouder.com" # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
