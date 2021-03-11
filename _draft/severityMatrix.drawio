@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T20:04:40.406Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="I954LgscnvtcS9GskAqE" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-11T20:06:16.098Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="H-N7xIYA_AAEhsEQFBsn" version="14.4.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="DataModal">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,20 +159,30 @@
       <root>
         <mxCell id="VeWbgr4w95AqmLYHKVb8-0" />
         <mxCell id="VeWbgr4w95AqmLYHKVb8-1" parent="VeWbgr4w95AqmLYHKVb8-0" />
+        <mxCell id="Or3j6joMFOUYmIIk-L7M-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VeWbgr4w95AqmLYHKVb8-1" source="_XsPLW2cbFTqWDyREmin-0" target="_XsPLW2cbFTqWDyREmin-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_XsPLW2cbFTqWDyREmin-0" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="VeWbgr4w95AqmLYHKVb8-1">
-          <mxGeometry x="60" y="130" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Or3j6joMFOUYmIIk-L7M-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VeWbgr4w95AqmLYHKVb8-1" source="_XsPLW2cbFTqWDyREmin-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_XsPLW2cbFTqWDyREmin-1" value="Examination Work Order&lt;br&gt;Examination Findings&lt;br&gt;Assign Policies" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VeWbgr4w95AqmLYHKVb8-1">
           <mxGeometry x="140" y="130" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_XsPLW2cbFTqWDyREmin-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VeWbgr4w95AqmLYHKVb8-1" source="_XsPLW2cbFTqWDyREmin-2" target="_XsPLW2cbFTqWDyREmin-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_XsPLW2cbFTqWDyREmin-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VeWbgr4w95AqmLYHKVb8-1" target="_XsPLW2cbFTqWDyREmin-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="170" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_XsPLW2cbFTqWDyREmin-2" value="Severity Matrix Calculation Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VeWbgr4w95AqmLYHKVb8-1">
-          <mxGeometry x="350" y="130" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_XsPLW2cbFTqWDyREmin-3" value="Examination Work Order&lt;br&gt;S" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="VeWbgr4w95AqmLYHKVb8-1">
+        <mxCell id="_XsPLW2cbFTqWDyREmin-3" value="Examination Work Order&lt;br&gt;Severity Calculation Outcome" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="VeWbgr4w95AqmLYHKVb8-1">
           <mxGeometry x="570" y="130" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Or3j6joMFOUYmIIk-L7M-2" value="&lt;span&gt;Severity Matrix Calculation Process&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;" vertex="1" parent="VeWbgr4w95AqmLYHKVb8-1">
+          <mxGeometry x="360" y="130" width="185" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
