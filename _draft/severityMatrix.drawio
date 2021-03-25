@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T13:26:41.266Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="3R0vLXbdXmS2tl_M0EgG" version="14.4.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-25T13:31:58.021Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TBEtOplLbKf_4-VLAYMe" version="14.4.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="DataModal">
     <mxGraphModel dx="1613" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,19 +220,19 @@
         <mxCell id="Or3j6joMFOUYmIIk-L7M-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="VeWbgr4w95AqmLYHKVb8-1" source="Or3j6joMFOUYmIIk-L7M-12" target="Or3j6joMFOUYmIIk-L7M-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Or3j6joMFOUYmIIk-L7M-12" value="&lt;b&gt;Salesforce LWC&lt;/b&gt;&lt;br&gt;&lt;span&gt;Load questions based on Division Office and Assigned Policies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="VeWbgr4w95AqmLYHKVb8-1" vertex="1">
+        <mxCell id="Or3j6joMFOUYmIIk-L7M-12" value="&lt;b&gt;Salesforce LWC (Apex)&lt;/b&gt;&lt;br&gt;&lt;span&gt;Load questions based on Division Office and Assigned Policies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="VeWbgr4w95AqmLYHKVb8-1" vertex="1">
           <mxGeometry x="170" y="300" width="210" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="Or3j6joMFOUYmIIk-L7M-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="VeWbgr4w95AqmLYHKVb8-1" source="Or3j6joMFOUYmIIk-L7M-14" target="Or3j6joMFOUYmIIk-L7M-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Or3j6joMFOUYmIIk-L7M-14" value="&lt;b&gt;Vlocity OmniScript&lt;/b&gt;&lt;br&gt;User answers questions&lt;br&gt;(Save answers to records and JSON field of current workOrder)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="VeWbgr4w95AqmLYHKVb8-1" vertex="1">
+        <mxCell id="Or3j6joMFOUYmIIk-L7M-14" value="&lt;b&gt;Salesforce LWC (Apex)&lt;/b&gt;&lt;br&gt;User answers questions&lt;br&gt;(Save answers to records and JSON field of current workOrder)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="VeWbgr4w95AqmLYHKVb8-1" vertex="1">
           <mxGeometry x="420" y="300" width="205" height="107" as="geometry" />
         </mxCell>
         <mxCell id="Or3j6joMFOUYmIIk-L7M-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="VeWbgr4w95AqmLYHKVb8-1" source="Or3j6joMFOUYmIIk-L7M-15" target="Or3j6joMFOUYmIIk-L7M-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Or3j6joMFOUYmIIk-L7M-15" value="Invoke Vlocity Calculation Procedure/ Vlocity Integration Procedure&lt;br&gt;Pass OmniScript JSON Data as parameters&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="VeWbgr4w95AqmLYHKVb8-1" vertex="1">
+        <mxCell id="Or3j6joMFOUYmIIk-L7M-15" value="&lt;b&gt;Vlocity&lt;/b&gt;&lt;br&gt;Invoke Vlocity Calculation Procedure/ Vlocity Integration Procedure&lt;br&gt;LWC Apex controller generates parameters&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="VeWbgr4w95AqmLYHKVb8-1" vertex="1">
           <mxGeometry x="417.5" y="450" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Or3j6joMFOUYmIIk-L7M-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="VeWbgr4w95AqmLYHKVb8-1" source="Or3j6joMFOUYmIIk-L7M-16" target="Or3j6joMFOUYmIIk-L7M-17" edge="1">
